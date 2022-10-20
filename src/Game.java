@@ -7,7 +7,7 @@ import java.awt.event.KeyEvent;
 import java.util.Random;
 
 /**
- * Created by infuntis on 15/01/17.
+ * Created by infuntis on 20/10/22.
  */
 public class Game extends JPanel implements ActionListener{
     private final int SIZE = 320;
@@ -27,7 +27,7 @@ public class Game extends JPanel implements ActionListener{
     private boolean down = false;
     private boolean inGame = true;
 
-
+///JPlame
     public Game(){
         setBackground(Color.black);
         loadImages();
