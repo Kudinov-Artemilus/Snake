@@ -1,2 +1,17 @@
-package PACKAGE_NAME;public class MainWindow {
+import javax.swing.*;
+
+public class MainWindow extends JFrame {
+    public MainWindow() {
+        setTitle("Змейка");
+        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        setSize(336,359);
+        setLocation(400,400);
+        add(new Game());
+        setVisible(true);
+
+
+    }
+    public static void main(String[] args) {
+        MainWindow mw = new MainWindow();
+    }
 }
